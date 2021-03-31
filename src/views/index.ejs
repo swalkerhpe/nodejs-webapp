@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Steve Walker</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/endless/endless.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+    <div class="container">
+
+      <h1><a href="index.html">HPE PreSales Amazing WebApp</a></h1>
+      
+      <h2>Using <span>NodeJs</span> with DB on Cloud Volumes</h2>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cv">HPE CV</a></li>
+          
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about this amazing app!</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/element.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Node.js</h3>
+          <p class="font-italic">
+           </p>
+           <p class="font-italic">
+            I   
+            </p>
+            <p class="font-italic">
+          <p>
+            
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Technology</h2>
+      </div>
+
+      <div class="row">
+        
+      <%for(let i=0; i<collectionOne.length; i++) {%>
+        <div class="<%=collectionOne[i].class%>">
+          <div class="icon-box">
+              <i i class="<%=collectionOne[i].fonts%>" style="font-size:100px; color: <%=collectionOne[i].colour%>;"></i>
+          </div>
+        </div>
+      <%}%>
+            
+
+
+      </div>
+
+    </div><!-- End Interests -->
+
+
+  </section><!-- End About Section -->
+
+  <!-- ======= CloudVolumes Section ======= -->
+  <section id="cv" class="cv">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Connecting to data</h2>
+        <p>HPE CV</p>
+      </div>
+      <table style="width: 325px; height: 45px;" border="1" cellpadding="2">
+        <tbody>
+        <tr style="height: 22px;">
+        <td style="width: 105px; height: 22px;">&nbsp;id</td>
+        <td style="width: 105px; height: 22px;">&nbsp;name</td>
+        <td style="width: 63px; height: 22px;">&nbsp;colour</td>
+        <td style="width: 51px; height: 22px;">&nbsp;breed</td>
+        </tr>
+        <% for (var i = 0; i < dogs.length;   i++) { %>
+        <tr style="height: 22px;">
+        <td style="width: 105px; height: 22px;">&nbsp;<%= dogs[i]._id %></td>
+        <td style="width: 105px; height: 22px;">&nbsp;<%= dogs[i].Name %></td>
+        <td style="width: 63px; height: 22px;"><%= dogs[i].Colour%></td>
+        <td style="width: 51px; height: 22px;">&nbsp;<%= dogs[i].Breed%></td>
+        </tr>
+        <% } %>
+        </tbody>
+        </table>
+
+        
+        <!-- DivTable.com -->
+        <!-- DivTable.com -->
+      </div>
+
+    </div>
+  </section><!-- End CloudVolumes Section -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

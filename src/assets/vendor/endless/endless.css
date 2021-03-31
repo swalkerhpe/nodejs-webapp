@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "endless";
+    src: url("./endless.eot?da4bca88b03f4515d003932e75af8ba5?#iefix") format("embedded-opentype"),
+url("./endless.woff2?da4bca88b03f4515d003932e75af8ba5") format("woff2"),
+url("./endless.woff?da4bca88b03f4515d003932e75af8ba5") format("woff"),
+url("./endless.ttf?da4bca88b03f4515d003932e75af8ba5") format("truetype"),
+url("./endless.svg?da4bca88b03f4515d003932e75af8ba5#endless") format("svg");
+}
+
+i[class^="endless-"]:before, i[class*=" endless-"]:before {
+    font-family: endless !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.endless-amazonaws:before {
+    content: "\f101";
+}
+.endless-ansible:before {
+    content: "\f102";
+}
+.endless-google:before {
+    content: "\f103";
+}
+.endless-googlecloud:before {
+    content: "\f104";
+}
+.endless-kubernetes:before {
+    content: "\f105";
+}
+.endless-microsoft:before {
+    content: "\f106";
+}
+.endless-netapp:before {
+    content: "\f107";
+}
+.endless-node-dot-js:before {
+    content: "\f108";
+}
+.endless-terraform:before {
+    content: "\f109";
+}
+.endless-vmware:before {
+    content: "\f10a";
+}

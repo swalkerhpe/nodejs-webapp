@@ -1,0 +1,12 @@
+{
+    "amazonaws": "\\f101",
+    "ansible": "\\f102",
+    "google": "\\f103",
+    "googlecloud": "\\f104",
+    "kubernetes": "\\f105",
+    "microsoft": "\\f106",
+    "netapp": "\\f107",
+    "node-dot-js": "\\f108",
+    "terraform": "\\f109",
+    "vmware": "\\f10a"
+}
